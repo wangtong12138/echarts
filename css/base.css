@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.clearfix::after {
+    clear: both;
+}
